@@ -9,6 +9,8 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.5",
+    "@ffmpeg/util": "^0.12.0",
     "umi": "^4.0.76"
   },
   "devDependencies": {

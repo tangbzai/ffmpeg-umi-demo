@@ -6,4 +6,8 @@ export default defineConfig({
     { path: "/docs", component: "docs" },
   ],
   npmClient: 'pnpm',
+  https: {
+    http2: false
+  },
+  crossorigin: {},
 });

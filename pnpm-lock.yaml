@@ -1,12 +1,16 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ffmpeg/ffmpeg': ^0.12.5
+  '@ffmpeg/util': ^0.12.0
   '@types/react': ^18.0.33
   '@types/react-dom': ^18.0.11
   typescript: ^5.0.3
   umi: ^4.0.76
 
 dependencies:
+  '@ffmpeg/ffmpeg': 0.12.5
+  '@ffmpeg/util': 0.12.0
   umi: 4.0.76_t7uvsxpou6ztgbpzd77f2ansou
 
 devDependencies:
@@ -870,6 +874,23 @@ packages:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
     dependencies:
       eslint-visitor-keys: 3.4.3
+    dev: false
+
+  /@ffmpeg/ffmpeg/0.12.5:
+    resolution: {integrity: sha512-grDWTaYSm0g/LEtpwkJtw0Kp1Iix/WF3KmtUo0Fm0V5GqKMUVzj1yzyaILg83o96wHSc8Y2d9Q3C37pYAF2wxQ==}
+    engines: {node: '>=18.17.0'}
+    dependencies:
+      '@ffmpeg/types': 0.12.0
+    dev: false
+
+  /@ffmpeg/types/0.12.0:
+    resolution: {integrity: sha512-AuR4K+L6v1/9hVOsikU4rGGT5nKulQa8HrtYhpgBEq0HojoWB1c9bq3TTkNBpEvS/gC17WDMVJrqIGgXOj1DXA==}
+    engines: {node: '>=16.6.0'}
+    dev: false
+
+  /@ffmpeg/util/0.12.0:
+    resolution: {integrity: sha512-8sHCW8H/ngqVhbRvCCX4e4uDNgZVoz8uNRry1zphIyzdX6flfBa2TmVwJ4g9/Qw//eAubEnuHaSxDGWWxcOTjg==}
+    engines: {node: '>=18.17.0'}
     dev: false
 
   /@floating-ui/core/0.6.2:
